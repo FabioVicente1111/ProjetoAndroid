@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+        font-family: 'idroid';
+        src: url('idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        }
+        
+        :root{
+        --cor0: #1A5C37;
+        --cor1: #83E1AD;
+        --cor2: #3DDC84;
+        --cor3: #355C47;
+        --cor4: #2FA866;
+        }
+        
+
+        header{
+            background-color: var(--cor0);
+        }
+
+
+        main{
+            border-left: 40px solid #83E1AD;
+            border-right: 40px solid #83E1AD;
+            padding: 1px 20px 10px 20px;
+            
+        }
+
+/*
+        #video{
+            background-color: black;
+            margin: auto;
+        }
+*/
+        .imagem{
+            background-color: black;
+            margin: 50px;
+            border: 50px solid green;
+            
+        }
+
+        .fonte{
+            font-family: 'idroid';
+        }
+
+        #mais{
+            background-color: green;
+        }
+
+        .mais{
+            background-color: greenyellow;
+        }
+
+        footer{
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</p>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+
+    </header>
+    <main>
+        <h1 class="fonte">História do Mascote do Android</h1>
+        <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+        </p>
+
+        <h2 class="fonte">A primeira versão</h2>
+        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
+        </p>
+        <img src="dan-droids.png" alt="dan-droids">
+        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
+        </p>
+
+        <h2 class="fonte">Surge um novo mascote</h2>
+        <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+        </p>
+        <img src="irina-blok.jpg" alt="irina">
+        <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.
+        </p>
+        <img src="bugdroid.png" alt="bugdroid">
+        <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
+        </p>
+        <a id="video" href="https://www.youtube.com/watch?v=l2UDgpLz20M&pp=ygUSdmlkZW8gYW5kcm9pZCBsb2dv" target="_blank" ><img class="imagem" src="imagens/android.png" alt="android"></a>
+
+        <h2 id="mais">Quer aprender mais? </h2>
+        <div class="mais">
+        <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+        </p>
+        <pre>
+            &#10003; 1.5 - Cupcake                          &#10003; 4.1 - Jelly Bean
+            &#10003; 1.6 - Donut                            &#10003; 4.4 - KitKat
+            &#10003; 3.0 - Eclair                           &#10003; 5.0 - Lolipop
+            &#10003; 2.2 - Froyo                            &#10003; 6.0 - Marshmallow
+            &#10003; 2.3 - Gingerbread                      &#10003; 7.0 - Nougat
+            &#10003; 3.0 - Honeycomb                        &#10003; 8.0 - Oreo
+            &#10003; 4.0 - Ice Cream Sandwich               &#10003; 9.0 - Pie
+            
+        </pre>
+        <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+        </p>
+        <p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
+        </p>
+
+        </div>
+        <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
+        </p>
+
+
+    </main>
+    <footer>
+        <p>Site criado por Gustavo Guanabara para o CursoemVideo</p>
+
+    </footer>
+    
+</body>
+</html>      &#10003; 2.2 - Froyo                            &#10003; 6.0 - Marshmallow
+            &#10003; 2.3 - Gingerbread                      &#10003; 7.0 - Nougat
+            &#10003; 3.0 - Honeycomb                        &#10003; 8.0 - Oreo
+            &#10003; 4.0 - Ice Cream Sandwich               &#10003; 9.0 - Pie
+            
+        </pre>
+        <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+        </p>
+        <p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o cada uma trouxe para o 
